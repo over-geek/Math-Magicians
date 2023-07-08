@@ -4,7 +4,7 @@ const Quote = () => {
   const { loading, data, error } = useQuote({});
 
   return (
-    <section id="quotes" className="page-content">
+    <div id="quotes" className="page-content">
       <div className="quotes-container">
         <div id="display-quote">
           <p id="quote-text" className={`${JSON.stringify(data) === '{}' ? 'd-none' : ''}`}>
@@ -15,7 +15,7 @@ const Quote = () => {
           <p id="error-message" className={`${!error ? 'd-none' : ''}`}>{ error || '' }</p>
         </div>
       </div>
-    </section>
+    </div>
   );
 };
 
