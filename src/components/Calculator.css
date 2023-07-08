@@ -1,10 +1,12 @@
 .container {
-  width: 280px;
+  width: 400px;
+  height: 500px;
   margin: 50px auto;
   border: 1px solid #ddd;
 }
 
 .calc-result {
+  height: 10%;
   display: flex;
   justify-content: flex-end;
   overflow: auto;
@@ -16,7 +18,7 @@
 }
 
 .btn-17 {
-  width: 140px;
+  grid-column: 1 / 3;
 }
 
 .btn-4,
@@ -27,10 +29,21 @@
   background-color: #f5913e;
 }
 
+.buttons-container {
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
 button {
   border: 1px solid #ddd;
   cursor: pointer;
-  width: 70px;
   outline: none;
   padding: 10px 0;
 }
