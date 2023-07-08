@@ -57,17 +57,13 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 Math Magicians <a name="about-project"></a>
 
-> Math Magicians is a website for all fans of mathematics. It is a Single Page App(SPA) that allows users to make simple calculations, and read a random math-related quote.
-
-**[your_project__name]** is a...
+Math Magicians is a website for all fans of mathematics. It is a Single Page App(SPA) that allows users to make simple calculations, and read a random math-related quote.
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
@@ -94,8 +90,6 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
 - **[Quote Generator]**
 - **[Calculator]**
 
@@ -105,9 +99,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> N/A
-
-- [Live Demo Link](https://google.com)
+N/A
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -139,7 +131,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd my-folder
-  git clone https://github.com/over-geek/Leaderboard.git
+  git clone https://github.com/over-geek/Math-Magicians.git
 ```
 --->
 
