@@ -4,7 +4,7 @@ const Button = ({ title, className, interactivity }) => (<button type="button" o
 
 Button.propTypes = {
   title: PropTypes.string.isRequired,
-  className: PropTypes.arrayOf(PropTypes.string).isRequired,
+  className: PropTypes.string.isRequired,
   interactivity: PropTypes.func.isRequired,
 };
 
