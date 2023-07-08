@@ -1,0 +1,36 @@
+.container {
+  width: 280px;
+  margin: 50px auto;
+  border: 1px solid #ddd;
+}
+
+.calc-result {
+  display: flex;
+  justify-content: flex-end;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.488);
+  color: #fff;
+  padding: 10px 0;
+  padding-right: 5px;
+  text-align: right;
+}
+
+.btn-17 {
+  width: 140px;
+}
+
+.btn-4,
+.btn-8,
+.btn-12,
+.btn-16,
+.btn-19 {
+  background-color: #f5913e;
+}
+
+button {
+  border: 1px solid #ddd;
+  cursor: pointer;
+  width: 70px;
+  outline: none;
+  padding: 10px 0;
+}
