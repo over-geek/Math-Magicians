@@ -1,6 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Calculator from './components/Calculator';
-import Quote from './components/Quote';
+import CalculatorPage from './pages/CalculatorPage';
+import QuotePage from './pages/QuotePage';
 import './App.css';
 import Navigation from './components/Navigation';
 import Home from './pages/Home';
@@ -12,8 +12,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Navigation />}>
             <Route path="/" element={<Home />} />
-            <Route path="calculator" element={<Calculator />} />
-            <Route path="quote" element={<Quote />} />
+            <Route path="calculator" element={<CalculatorPage />} />
+            <Route path="quote" element={<QuotePage />} />
           </Route>
         </Routes>
       </BrowserRouter>
