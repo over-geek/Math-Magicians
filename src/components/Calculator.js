@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Calculator.css';
+import './styles/Calculator.css';
 import Button from './Button';
 import {
   OPERATOR,
@@ -24,23 +24,28 @@ function Calculator() {
   };
 
   return (
-    <div className="container">
-      <div className="calc-result">{`${dataObj.next || dataObj.total || 0}`}</div>
-      <div className="buttons-container">
-        <div className="button">
-          {OPERATOR.map((item) => (<Button key={item.id} title={item.op} className={`btn-${item.id}`} interactivity={operations} />))}
-        </div>
-        <div className="button">
-          {NUM_1.map((item) => (<Button key={item.id} title={item.num} className={`btn-${item.id}`} interactivity={operations} />))}
-        </div>
-        <div className="button">
-          {NUM_2.map((item) => (<Button key={item.id} title={item.num} className={`btn-${item.id}`} interactivity={operations} />))}
-        </div>
-        <div className="button">
-          {NUM_3.map((item) => (<Button key={item.id} title={item.num} className={`btn-${item.id}`} interactivity={operations} />))}
-        </div>
-        <div className="button">
-          {NUM_4.map((item) => (<Button key={item.id} title={item.num} className={`btn-${item.id}`} interactivity={operations} />))}
+    <div className="calc-page-container">
+      <div>
+        <p>Let&apos;s do some Math!</p>
+      </div>
+      <div className="calc-container">
+        <div className="calc-result">{`${dataObj.next || dataObj.total || 0}`}</div>
+        <div className="buttons-container">
+          <div className="button">
+            {OPERATOR.map((item) => (<Button key={item.id} title={item.op} className={`btn-${item.id}`} interactivity={operations} />))}
+          </div>
+          <div className="button">
+            {NUM_1.map((item) => (<Button key={item.id} title={item.num} className={`btn-${item.id}`} interactivity={operations} />))}
+          </div>
+          <div className="button">
+            {NUM_2.map((item) => (<Button key={item.id} title={item.num} className={`btn-${item.id}`} interactivity={operations} />))}
+          </div>
+          <div className="button">
+            {NUM_3.map((item) => (<Button key={item.id} title={item.num} className={`btn-${item.id}`} interactivity={operations} />))}
+          </div>
+          <div className="button">
+            {NUM_4.map((item) => (<Button key={item.id} title={item.num} className={`btn-${item.id}`} interactivity={operations} />))}
+          </div>
         </div>
       </div>
     </div>
