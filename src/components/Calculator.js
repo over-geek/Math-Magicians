@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './Calculator.css';
+import './styles/Calculator.css';
 import Button from './Button';
 import {
   OPERATOR,
@@ -24,7 +24,7 @@ function Calculator() {
   };
 
   return (
-    <div className="container">
+    <div className="calc-container">
       <div className="calc-result">{`${dataObj.next || dataObj.total || 0}`}</div>
       <div className="buttons-container">
         <div className="button">

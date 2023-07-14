@@ -1,7 +1,6 @@
-.container {
+.calc-container {
   width: 400px;
   height: 500px;
-  margin: 50px auto;
   border: 1px solid #ddd;
 }
 
