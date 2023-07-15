@@ -32,7 +32,7 @@ describe('Quote Component', () => {
       </MemoryRouter>,
     );
 
-    const quotesContainer = component.container.querySelector('#dispay-quote');
+    const quotesContainer = component.container.querySelector('#display-quote');
     expect(quotesContainer).toBeInTheDocument();
   });
 });
