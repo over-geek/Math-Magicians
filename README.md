@@ -173,10 +173,6 @@ Open liveserver in VS Code
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Describe 1 - 3 features you will add to the project.
-
-- [ ] **[Fetch data from API]**
-- [ ] **[Tests]**
 - [ ] **[Deploy]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
