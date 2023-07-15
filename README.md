@@ -164,8 +164,6 @@ Open liveserver in VS Code
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Fetch data from API]**
-- [ ] **[Tests]**
 - [ ] **[Deploy]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
